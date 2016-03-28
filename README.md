@@ -127,35 +127,35 @@ There are several attributes you can set:
 
 | attr | description |
 |:---|:---|
-| stl_indicatorAlwaysInCenter | If set to true, active tab is always displayed in center (Like Newsstand google app), default false （如果设置为true，有源标签总是显示在中心（如报刊亭的谷歌应用程序），默认为false）|
-| stl_indicatorWithoutPadding | If set to true, draw the indicator without padding of tab, default false |
-| stl_indicatorInFront | Draw the indicator in front of the underline, default false |
-| stl_indicatorInterpolation | Behavior of the indicator: 'linear' or 'smart' |
-| stl_indicatorGravity | Drawing position of the indicator: 'bottom' or 'top' or 'center', default 'bottom' |
-| stl_indicatorColor | Color of the indicator |
-| stl_indicatorColors | Multiple colors of the indicator, can set the color for each tab |
-| stl_indicatorThickness | Thickness of the indicator |
-| stl_indicatorWidth | Width of the indicator, default 'auto' |
-| stl_indicatorCornerRadius | Radius of rounded corner the indicator |
-| stl_overlineColor | Color of the top line |
-| stl_overlineThickness | Thickness of the top line |
-| stl_underlineColor | Color of the bottom line |
-| stl_underlineThickness | Thickness of the bottom line |
-| stl_dividerColor | Color of the dividers between tabs |
-| stl_dividerColors | Multiple colors of the dividers between tabs, can set the color for each tab |
-| stl_dividerThickness | Thickness of the divider |
-| stl_defaultTabBackground | Background drawable of each tab. In general it set the StateListDrawable |
-| stl_defaultTabTextAllCaps | If set to true, all tab titles will be upper case, default true |
-| stl_defaultTabTextColor | Text color of the tab that was included by default |
-| stl_defaultTabTextSize | Text size of the tab that was included by default |
-| stl_defaultTabTextHorizontalPadding | Text layout padding of the tab that was included by default |
-| stl_defaultTabTextMinWidth | Minimum width of tab |
-| stl_customTabTextLayoutId | Layout ID defined custom tab. If you do not specify a layout, use the default tab |
-| stl_customTabTextViewId | Text view ID in a custom tab layout. If you do not define with customTabTextLayoutId, does not work |
-| stl_distributeEvenly | If set to true, each tab is given the same weight, default false |
-| stl_clickable | If set to false, disable the selection of a tab click, default true |
-| stl_titleOffset | If set to 'auto_center', the slide position of the tab in the middle it will keep to the center. If specify a dimension it will be offset from the left edge, default 24dp |
-| stl_drawDecorationAfterTab | Draw the decoration(indicator and lines) after drawing of tab, default false |
+| stl_indicatorAlwaysInCenter | 如果设置为true，有源标签总是显示在中心（如报刊亭的谷歌应用程序），默认为false |
+| stl_indicatorWithoutPadding | 如果设置为真，画出没有填充标签的指标，默认为假 |
+| stl_indicatorInFront | 在前面的下划线，默认的假画 |
+| stl_indicatorInterpolation | 指标的行为：: 'linear' or 'smart' |
+| stl_indicatorGravity | 指示器的位置: 'bottom' or 'top' or 'center', default 'bottom' |
+| stl_indicatorColor | 指示剂颜色 |
+| stl_indicatorColors | 该指标的多个颜色，可以设置每个标签的颜色 |
+| stl_indicatorThickness | 指标的厚度 |
+| stl_indicatorWidth | 指标的宽度(width), default 'auto' |
+| stl_indicatorCornerRadius | 圆角半径的指示器 |
+| stl_overlineColor | 顶线的颜色 |
+| stl_overlineThickness | 顶线厚度 |
+| stl_underlineColor | 底线的颜色 |
+| stl_underlineThickness | 底线的厚度 |
+| stl_dividerColor | 标签的颜色之间的分隔 |
+| stl_dividerColors | 制表符分隔的多个颜色，可以设置每个标签的颜色 |
+| stl_dividerThickness | 间隔(divider)的厚度 |
+| stl_defaultTabBackground | 背景中每个选项卡。一般来说，设置statelistdrawable |
+| stl_defaultTabTextAllCaps | 如果设置为真，所有标签的标题将是大写的，default true |
+| stl_defaultTabTextColor | 默认的选项卡的文本颜色 |
+| stl_defaultTabTextSize | 默认的选项卡的文本大小 |
+| stl_defaultTabTextHorizontalPadding | 默认情况下包含的选项卡的文本布局填充 |
+| stl_defaultTabTextMinWidth | tab最小宽度 |
+| stl_customTabTextLayoutId | 布局标识自定义选项卡。如果不指定布局，使用默认选项卡 |
+| stl_customTabTextViewId | 自定义选项卡布局中的文本视图标识。如果你不确定customtabtextlayoutid，不工作 |
+| stl_distributeEvenly | 如果设置为真，每个标签都有相同的权重, default false |
+| stl_clickable | 如果设置为假，请禁用选项卡的选择, default true |
+| stl_titleOffset | 如果设置为“auto_center，滑块位置的标签中会不断向中心。如果指定一个维度将它从左边偏移，默认24dp|
+| stl_drawDecorationAfterTab | Draw the decoration(indicator and lines) after drawing of tab, default false 绘制标签后的装饰（指标和线） |
 
 *__Notes:__ Both 'stl_indicatorAlwaysInCenter' and 'stl_distributeEvenly' if it is set to true, it will throw UnsupportedOperationException.*
 
