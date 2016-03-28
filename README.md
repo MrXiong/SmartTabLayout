@@ -127,7 +127,7 @@ There are several attributes you can set:
 
 | attr | description |
 |:---|:---|
-| stl_indicatorAlwaysInCenter | If set to true, active tab is always displayed in center (Like Newsstand google app), default false |
+| stl_indicatorAlwaysInCenter | If set to true, active tab is always displayed in center (Like Newsstand google app), default false （如果设置为true，有源标签总是显示在中心（如报刊亭的谷歌应用程序），默认为false）|
 | stl_indicatorWithoutPadding | If set to true, draw the indicator without padding of tab, default false |
 | stl_indicatorInFront | Draw the indicator in front of the underline, default false |
 | stl_indicatorInterpolation | Behavior of the indicator: 'linear' or 'smart' |
